@@ -7,4 +7,8 @@ router.get('/',(req: Request,res: Response) =>{
     res.json({message:"Welcome to ToDoList-Api"})
 });
 
+router.post('/register',(req: Request,res: Response)=>{
+        
+});
+
 export default router;

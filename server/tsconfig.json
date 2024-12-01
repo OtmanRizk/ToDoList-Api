@@ -1,15 +1,24 @@
 {
-    "compilerOptions": {
-      "target": "ES6",
-      "module": "CommonJS",
-      "outDir": "./dist",
-      "rootDir": "./src",
-      "strict": true,
-      "esModuleInterop": true,
-      "resolveJsonModule": true,
-      "typeRoots": ["./node_modules/@types"],
-      "skipLibCheck": true
-    },
-    "include": ["src/**/*"],
-    "exclude": ["/home/otman/Documents/Project/ToDoList-Api/server/dist"]
-  }
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+    // ... other options ...
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "/home/otman/Documents/Project/ToDoList-Api/server/dist"
+  ]
+}
